@@ -1,0 +1,257 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+@font-face {
+   font-family: OliverTue;
+   src: url(../fonts/more/Oliver tue les fourmis.ttf);
+}
+@font-face {
+   font-family: ProstoOne;
+   src: url(../fonts/more/ProstoOne-Regular.ttf);
+}
+@font-face {
+   font-family: SFGrandezza_HO;
+   src: url('../fonts/more/SF Grandezza Heavy Oblique.ttf');
+}
+@font-face {
+   font-family: SFGrandezza_H;
+   src: url('../fonts/more/SF Grandezza Heavy.ttf');
+}
+@font-face {
+   font-family: SFGrandezza_LO;
+   src: url('../fonts/more/SF Grandezza Light Oblique.ttf');
+}
+@font-face {
+   font-family: SFGrandezza_L;
+   src: url('../fonts/more/SF Grandezza Light.ttf');
+}
+@font-face {
+   font-family: SFGrandezza_MO;
+   src: url('../fonts/more/SF Grandezza Medium Oblique.ttf');
+}
+@font-face {
+   font-family: SFGrandezza_M;
+   src: url('../fonts/more/SF Grandezza Medium.ttf');
+}
+
+/* Navbar and Banner*/
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+
+header {
+	height:120px;
+}
+
+.white-hover:hover {
+    background: rgba(255,255,255,.8))
+}
+
+.blue-letters {
+    color: #5C5C5C;
+}
+
+.white-letters {
+    color: #fff;
+}
+
+.white-letters-fa {
+    color: #fff;
+}
+
+.white-letters-fa:hover {
+    color: #808080;
+}
+
+.gray-letters {
+    color: #808080;
+}
+
+header .bottom-margin {
+    padding-bottom: 10px;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+#sidebar.affix-top {
+    position: static;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 80px;
+}
+
+
+/* Normal tags */
+
+a .pink-container{
+    color: #5C5C5C;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: SFGrandezza_L;
+    font-size: small;
+    color: #47474A;
+    background: url(../img/map/city_pink.jpg) fixed no-repeat ;
+}
+
+#nav{
+    font-family: ProstoOne;
+    text-transform:uppercase;
+    background: #fff;
+    border:none;
+}
+
+container {
+    background: rgba(255,255,255,.5);
+}
+
+h1{
+    font-family: ProstoOne;
+}
+
+h2, h3, h4, h4, h5, 
+h6, h7, h8 ,h9 {
+    font-family: SFGrandezza_M;
+}
+
+i:hover {
+    color: #fff;
+}
+
+.pink-back {
+    background: rgba(255,255,255,.8);
+}
+
+.blue-full-back {
+    background: #fff;
+}
+
+.bold {
+    font-family: SFGrandezza_H;
+}
+
+hr {
+    background-color: #808080;
+    border-color: #808080;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+.link-hover:hover{
+    color: #808080;
+    text-decoration: none;
+}
+
+.link-hover{
+    color: #47474A;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0; 
+    font-size: smaller;
+}
+
+footer .padding-10-right {
+    padding-right: 10px;
+}
+
+footer .padding-20-right {
+    padding-right: 20px;
+}
+
+footer .bold {
+    font-family: SFGrandezza_H;
+}
+
+footer .whiteback {
+    background: #fff;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
