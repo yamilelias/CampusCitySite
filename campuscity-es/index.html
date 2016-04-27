@@ -31,7 +31,8 @@
     <!-- Load Scripts -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script>
-        $(function(){
+        $(function () {
+            $("#header").load("includes/header.html");
             $("#nav").load("includes/nav.html");
             $("#footer").load("includes/footer.html");
         });
@@ -42,21 +43,7 @@
 <body>
 
     <!-- Header Logo -->
-    <header class="masthead">
-        <div class="container">
-            <div class="col-sm-6">
-                <img src="img/logo/Campuscity_logo-02.png" width="120px" height="120px" class="bottom-margin"/>
-            </div>
-            <div class="col-sm-6">
-                <div class="pull-right hidden-sm white-letters">
-                    Síguenos en: <a href="#"><i class="fa fa-facebook fa-2x white-letters"></i></a> <a href="#"><i class="fa fa-twitter fa-2x white-letters"></i></a> <br />
-                    Idioma: <a href="http://en.campuscity.com.mx"><img src="img/colors/usa.png" width="25" height="25" /></a> <br />
-                    Cambiar el color de la página <br />
-                    <p class="pull-right"><a href="pages/blue/index.html"><img src="img/colors/blue.png" width="25px" height="25px" /></a>&nbsp;<a href="pages/pink/index.html"><img src="img/colors/pink.jpg" width="25px" height="25px" /></a>&nbsp;<a href="pages/turquoise/index.html"><img src="img/colors/sapphire.png" width="25px" height="25px" /></a></p>
-                </div>
-            </div>
-        </div>
-    </header>	  	
+    <header id="header"></header>	
 
     <!-- Navigation -->
     <nav id="nav"></nav>
